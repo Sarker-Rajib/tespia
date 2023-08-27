@@ -187,6 +187,7 @@ body {
 }
 .banner-main .wrapper .p-top .dialouge .welcome {
   font-size: 15px;
+  line-height: 0.9;
   padding: 0;
   margin: 0;
   position: relative;
@@ -218,6 +219,7 @@ body {
   position: relative;
   z-index: 999;
   font-size: 13px;
+  line-height: 0.6;
 }
 @media (max-width: 1399px) {
   .banner-main .wrapper .p-top .dialouge span {
@@ -230,6 +232,7 @@ body {
   color: #004d9b;
   font-size: 11px;
   margin: 0 3px;
+  padding: 0;
 }
 @media (max-width: 1399px) {
   .banner-main .wrapper .p-top .dialouge a {
@@ -250,7 +253,7 @@ body {
 }
 .banner-main .wrapper .game-news .heading1 {
   padding: 10px 0;
-  font-size: 25px;
+  font-size: 28px;
   background: rgb(6, 33, 50);
   background: linear-gradient(180deg, rgb(6, 33, 50) 0%, rgb(7, 75, 102) 100%);
   color: #ffffff;
@@ -259,7 +262,7 @@ body {
 }
 @media (max-width: 1399px) {
   .banner-main .wrapper .game-news .heading1 {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 .banner-main .wrapper .game-news .heading1::after {
@@ -286,18 +289,18 @@ body {
 }
 .banner-main .wrapper .game-news td {
   padding: 12px 20px;
-  font-size: 15px;
+  font-size: 18px;
   display: flex;
   align-items: center;
 }
 @media (max-width: 1399px) {
   .banner-main .wrapper .game-news td {
-    font-size: 13px;
+    font-size: 16px;
     padding: 10px 15px;
   }
 }
 .banner-main .wrapper .game-news td .small {
-  font-size: 13px;
+  font-size: 14px;
   margin-left: 3px;
 }
 @media (max-width: 1399px) {
@@ -325,7 +328,7 @@ body {
 }
 .banner-main .wrapper .server-news .heading1 {
   padding: 10px 0;
-  font-size: 25px;
+  font-size: 28px;
   background: #ff8200;
   background: linear-gradient(180deg, #ff5e00 0%, #ff8200 100%);
   color: #ffffff;
@@ -334,7 +337,7 @@ body {
 }
 @media (max-width: 1399px) {
   .banner-main .wrapper .server-news .heading1 {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 .banner-main .wrapper .server-news .heading1::after {
@@ -361,11 +364,11 @@ body {
 }
 .banner-main .wrapper .server-news td {
   padding: 12px 20px;
-  font-size: 15px;
+  font-size: 18px;
 }
 @media (max-width: 1399px) {
   .banner-main .wrapper .server-news td {
-    font-size: 13px;
+    font-size: 16px;
     padding: 10px 15px;
   }
 }
@@ -477,7 +480,7 @@ body {
   border-radius: 5px;
 }
 .banner-main .wrapper .charter .rating .trap p {
-  font-size: 14px;
+  font-size: 15px;
 }
 @media (max-width: 1399px) {
   .banner-main .wrapper .charter .rating .trap p {
@@ -495,7 +498,7 @@ body {
   margin-right: 10px;
 }
 .banner-main .wrapper .charter .list span {
-  font-size: 14px;
+  font-size: 15px;
 }
 @media (max-width: 1399px) {
   .banner-main .wrapper .charter .list span {
@@ -538,7 +541,7 @@ body {
   margin-right: 10px;
 }
 .banner-main .wrapper .bottom .gm-blog .list p {
-  font-size: 14px;
+  font-size: 15px;
 }
 @media (max-width: 1399px) {
   .banner-main .wrapper .bottom .gm-blog .list p {
@@ -555,20 +558,20 @@ body {
   }
 }
 .banner-main .wrapper .bottom .im-wrapp .imhs {
-  position: absolute;
   width: 100%;
   right: 0;
 }
 @media (min-width: 1200px) {
   .banner-main .wrapper .bottom .im-wrapp .imhs {
+    position: absolute;
     right: -40px;
-    bottom: 0;
+    bottom: -4px;
   }
 }
 @media (min-width: 1500px) {
   .banner-main .wrapper .bottom .im-wrapp .imhs {
     right: -70px;
-    bottom: 0;
+    bottom: -4px;
   }
 }
 
