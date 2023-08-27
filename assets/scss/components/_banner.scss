@@ -483,11 +483,30 @@
                 }
             }
 
-            .imhs {
-                @media(min-width: 1300px) {
+
+            .im-wrapp {
+                position: relative;
+                min-height: 200px;
+
+                @media(min-width: 1500px) {
+                    min-height: 250px;
+                }
+
+                .imhs {
                     position: absolute;
-                    right: -40px;
-                    bottom: 0;
+                    width: 100%;
+                    right: 0;
+
+                    @media(min-width: 1200px) {
+                        right: -40px;
+                        bottom: 0;
+                    }
+
+                    @media(min-width: 1500px) {
+                        right: -70px;
+                        bottom: 0;
+                    }
+
                 }
             }
         }

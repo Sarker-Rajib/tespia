@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: "tahoma-bold";
-  src: url(../fonts/tahomabd.ttf);
+  src: url(../fonts/tahomabd.ttf) format("truetype");
 }
 /*===// end of abstracts css === */
 /*=== base css start === */
@@ -545,10 +545,29 @@ body {
     font-size: 12px;
   }
 }
-@media (min-width: 1300px) {
-  .banner-main .wrapper .bottom .imhs {
-    position: absolute;
+.banner-main .wrapper .bottom .im-wrapp {
+  position: relative;
+  min-height: 200px;
+}
+@media (min-width: 1500px) {
+  .banner-main .wrapper .bottom .im-wrapp {
+    min-height: 250px;
+  }
+}
+.banner-main .wrapper .bottom .im-wrapp .imhs {
+  position: absolute;
+  width: 100%;
+  right: 0;
+}
+@media (min-width: 1200px) {
+  .banner-main .wrapper .bottom .im-wrapp .imhs {
     right: -40px;
+    bottom: 0;
+  }
+}
+@media (min-width: 1500px) {
+  .banner-main .wrapper .bottom .im-wrapp .imhs {
+    right: -70px;
     bottom: 0;
   }
 }
