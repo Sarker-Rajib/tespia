@@ -1,7 +1,11 @@
 /*=== abstracts css start === */
 @font-face {
+  font-family: "maple-reg";
+  src: url(../fonts/Maplestory-bold.ttf) format("truetype");
+}
+@font-face {
   font-family: "tahoma-reg";
-  src: url(../fonts/Tahoma_Regularfont.ttf);
+  src: url(../fonts/Tahoma_Regularfont.ttf) format("truetype");
 }
 @font-face {
   font-family: "tahoma-bold";
@@ -52,8 +56,7 @@ body {
 .header .navbar .nav-link {
   font-family: "tahoma-bold";
   color: #ffffff;
-  font-size: 18px;
-  padding-top: 3px;
+  font-size: 17px;
 }
 @media (max-width: 1399px) {
   .header .navbar .nav-link {
@@ -66,10 +69,8 @@ body {
 .header .navbar .nav-link:hover {
   color: #fe7e00;
 }
-.header .navbar .vr {
-  background: #fff;
+.header .navbar .v {
   color: #ffffff;
-  width: 3px;
 }
 
 .footer {
@@ -253,6 +254,7 @@ body {
 }
 .banner-main .wrapper .game-news .heading1 {
   padding: 10px 0;
+  font-family: "maple-reg";
   font-size: 28px;
   background: rgb(6, 33, 50);
   background: linear-gradient(180deg, rgb(6, 33, 50) 0%, rgb(7, 75, 102) 100%);
@@ -287,24 +289,18 @@ body {
   transform: rotate(30deg);
   z-index: -3;
 }
-.banner-main .wrapper .game-news td {
-  padding: 12px 20px;
-  font-size: 18px;
+.banner-main .wrapper .game-news td p {
+  padding: 7px 20px;
+  font-size: 16px;
   display: flex;
   align-items: center;
 }
-@media (max-width: 1399px) {
-  .banner-main .wrapper .game-news td {
-    font-size: 16px;
-    padding: 10px 15px;
-  }
-}
-.banner-main .wrapper .game-news td .small {
+.banner-main .wrapper .game-news td p .small {
   font-size: 14px;
   margin-left: 3px;
 }
 @media (max-width: 1399px) {
-  .banner-main .wrapper .game-news td .small {
+  .banner-main .wrapper .game-news td p .small {
     font-size: 10px;
   }
 }
@@ -328,6 +324,7 @@ body {
 }
 .banner-main .wrapper .server-news .heading1 {
   padding: 10px 0;
+  font-family: "maple-reg";
   font-size: 28px;
   background: #ff8200;
   background: linear-gradient(180deg, #ff5e00 0%, #ff8200 100%);
@@ -362,17 +359,12 @@ body {
   transform: rotate(30deg);
   z-index: -3;
 }
-.banner-main .wrapper .server-news td {
-  padding: 12px 20px;
-  font-size: 18px;
+.banner-main .wrapper .server-news td p {
+  font-family: "tahoma-bold";
+  padding: 7px;
+  font-size: 16px;
 }
-@media (max-width: 1399px) {
-  .banner-main .wrapper .server-news td {
-    font-size: 16px;
-    padding: 10px 15px;
-  }
-}
-.banner-main .wrapper .server-news td span {
+.banner-main .wrapper .server-news td p span {
   color: #67c21d;
 }
 .banner-main .wrapper .r-top {
@@ -573,6 +565,12 @@ body {
     right: -70px;
     bottom: -4px;
   }
+}
+.banner-main .i-link img {
+  transition: all 0.2s;
+}
+.banner-main .i-link:hover img {
+  transform: scale(1.1);
 }
 
 @media (max-width: 1199px) {

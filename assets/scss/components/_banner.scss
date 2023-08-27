@@ -46,7 +46,6 @@
         background-color: #ffffff;
         box-shadow: 0px 0px 38px 0px #00000030;
 
-
         .p-top {
             padding: 20px;
             margin-top: -80px;
@@ -159,6 +158,7 @@
         .game-news {
             .heading1 {
                 padding: 10px 0;
+                font-family: 'maple-reg';
                 font-size: 28px;
                 background: rgb(6, 33, 50);
                 background: linear-gradient(180deg, rgba(6, 33, 50, 1) 0%, rgba(7, 75, 102, 1) 100%);
@@ -196,22 +196,19 @@
             }
 
             td {
-                padding: 12px 20px;
-                font-size: 18px;
-                display: flex;
-                align-items: center;
-
-                @media(max-width:1399px) {
+                p {
+                    padding: 7px 20px;
                     font-size: 16px;
-                    padding: 10px 15px;
-                }
+                    display: flex;
+                    align-items: center;
 
-                .small {
-                    font-size: 14px;
-                    margin-left: 3px;
+                    .small {
+                        font-size: 14px;
+                        margin-left: 3px;
 
-                    @media(max-width:1399px) {
-                        font-size: 10px;
+                        @media(max-width:1399px) {
+                            font-size: 10px;
+                        }
                     }
                 }
             }
@@ -242,6 +239,7 @@
 
             .heading1 {
                 padding: 10px 0;
+                font-family: 'maple-reg';
                 font-size: 28px;
                 background: #ff8200;
                 background: linear-gradient(180deg, #ff5e00 0%, #ff8200 100%);
@@ -280,16 +278,14 @@
             }
 
             td {
-                padding: 12px 20px;
-                font-size: 18px;
-
-                @media(max-width:1399px) {
+                p {
+                    font-family: 'tahoma-bold';
+                    padding: 7px;
                     font-size: 16px;
-                    padding: 10px 15px;
-                }
 
-                span {
-                    color: #67c21d;
+                    span {
+                        color: #67c21d;
+                    }
                 }
             }
         }
@@ -510,6 +506,18 @@
                     }
 
                 }
+            }
+        }
+    }
+
+    .i-link {
+        img {
+            transition: all 0.2s;
+        }
+
+        &:hover {
+            img {
+                transform: scale(1.1);
             }
         }
     }
