@@ -1,3 +1,3 @@
-// window.onload = () => {
-//     document.getElementById("m-music").play();
-// };
+window.onload = () => {
+    document.getElementById("m-music").play();
+};
