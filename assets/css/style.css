@@ -1,11 +1,11 @@
 /*=== abstracts css start === */
 @font-face {
-  font-family: "tahoma-bold";
-  src: url(../fonts/tahoma-bold.TTF);
-}
-@font-face {
   font-family: "tahoma-reg";
   src: url(../fonts/Tahoma_Regularfont.ttf);
+}
+@font-face {
+  font-family: "tahoma-bold";
+  src: url(../fonts/tahomabd.ttf);
 }
 /*===// end of abstracts css === */
 /*=== base css start === */
