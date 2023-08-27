@@ -1,3 +1,3 @@
-// window.onload = function () {
-//     document.getElementById('backgroundMusic').play();
-// };
+window.onload = () => {
+    document.getElementById("m-music").play();
+};
