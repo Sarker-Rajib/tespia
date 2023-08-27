@@ -566,6 +566,9 @@ body {
     bottom: -4px;
   }
 }
+.banner-main .i-link {
+  margin-bottom: 3px;
+}
 .banner-main .i-link img {
   transition: all 0.2s;
 }
